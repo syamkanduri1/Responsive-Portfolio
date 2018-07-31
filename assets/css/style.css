@@ -1,0 +1,115 @@
+.header {
+  background-color: #4aaaa5;
+  color:white;
+  padding-top:22px;
+  padding-bottom: 22px;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: x-large;
+}
+
+.containerClass {
+  background-image: url(../images/concrete_seamless.png);
+  border-top:#cccccc solid;
+  height:100%;
+}
+
+.pageContent {
+  margin-top:20px;
+  margin-bottom:80px;
+  background-color: white;
+  padding:20px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  border:#dddddd solid 1px;
+}
+.contentHeading {
+  color:#4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-bottom:2px solid #dddddd;
+  font-size: x-large;
+}
+
+#bioImage {
+  width:150px;
+  height:150px;
+  margin-right:20px;
+  margin-top:20px;
+  max-width:100%;
+  height:auto;
+}
+
+#bioText {
+  color:#777777;
+  padding-left: 10px;
+  padding-top:12px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 30px;
+}
+
+.btnSubmit {
+  background-color:#4aaaa5;
+  color:white;
+}
+
+.portfolioRow {
+  padding-left:15px;
+}
+
+.navLink {
+  padding: 14px 25px;
+  text-align: right; 
+}
+
+.navLink a:hover {
+  text-decoration: underline;
+}
+
+/* Make the layout match *980px, 768px, 640px*/
+
+@media screen and (max-width: 980px) {
+
+  .pageContent {
+       width:550px;
+   }
+
+   .headingAndNav {
+       width:100%;
+   }
+
+}
+
+@media screen and (max-width: 768px) {
+
+   .pageContent {
+        width:680px;
+        margin:auto;
+        margin-top:20px;
+        margin-bottom:300px;
+    }
+
+    .headingAndNav {
+        width:100%;
+        margin-left:18px;
+    }
+
+   
+}
+
+@media screen and (max-width: 640px) {
+  .pageContent {
+    width:640px;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.headingAndNav {
+    width:100%;
+    margin-left:10px;
+}
+
+}
