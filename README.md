@@ -10,7 +10,7 @@ To build a portfolio  using bootstrap.
 # Link to deployed site
 <!-- make a link to the deployed site --> 
 <!-- [What the user will see](the link to the deployed site) -->
-[my second homework](https://syamkanduri1.github.io/Bootstrap-Portfolio/)
+[my second homework part 2](https://syamkanduri1.github.io/Responsive-Portfolio/)
 
 
 
